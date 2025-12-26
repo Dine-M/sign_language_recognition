@@ -69,6 +69,7 @@ sign-language-recognition/
 • Dataset split into training and validation sets
 
 Dataset Configuration (data/custom.yaml)
+
 (code)
 
 train: data/images/train
@@ -82,26 +83,45 @@ names: ['sign']
 ⚙️ Setup & Installation
 
 1️⃣ Clone YOLOv7 Repository
+
 (Code)
 
 git clone https://github.com/WongKinYiu/yolov7
+
 2️⃣ Install Dependencies
+
 (Code)
+
 pip install -r requirements.txt
+
 3️⃣ Download Pretrained Weights
+
 Download yolov7.pt from the official YOLOv7 releases and place it in the project root or YOLOv7 directory.
 
 🏋️ Model Training
+
 Run the training script:
-(Code)python scripts/train_model.py
+
+(Code)
+
+python scripts/train_model.py
+
 Trained model weights will be saved automatically in:
-(Code)runs/train/exp/weights/
+
+(Code)
+
+runs/train/exp/weights/
 
 🎥 Real-Time Detection
+
 To start live sign language recognition using a webcam:
-(code)python scripts/detect_realtime.py
+
+(code)
+
+python scripts/detect_realtime.py
 
 📈 Results
+
 • Accurate gesture detection on trained sign classes
 • Smooth real-time inference
 • Efficient performance using YOLOv7 architecture
