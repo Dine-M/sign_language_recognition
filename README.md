@@ -7,12 +7,14 @@ This project implements a real-time sign language recognition system using YOLOv
 The system detects hand gestures from live video input and classifies them into predefined sign labels with fast and accurate real-time performance.
 
 🎯 Objectives
+
 • Detect hand gestures in real time using a webcam
 • Train a deep learning model on a custom sign language dataset
 • Achieve high accuracy with low inference latency
 • Build a clean, modular, and extensible recognition pipeline
 
 🚀 Features
+
 • Real-time webcam-based detection
 • YOLOv7-powered object detection
 • Custom dataset training support
@@ -20,6 +22,7 @@ The system detects hand gestures from live video input and classifies them into 
 • Google Colab compatible training setup
 
 🛠️ Tech Stack
+
 • Programming Language: Python
 • Deep Learning Framework: PyTorch
 • Model: YOLOv7
@@ -30,6 +33,7 @@ The system detects hand gestures from live video input and classifies them into 
 📂 Project Structure
 
 sign-language-recognition/
+
 │
 ├── README.md
 ├── requirements.txt
