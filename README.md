@@ -9,7 +9,7 @@ This project implements a real-time sign language recognition system using YOLOv
 The system detects hand gestures from live video input and classifies them into predefined sign labels with fast and accurate real-time performance.
 
 
-🎯 Objectives
+🎯 Objectives:
 
 • Detect hand gestures in real time using a webcam
 
@@ -20,7 +20,7 @@ The system detects hand gestures from live video input and classifies them into 
 • Build a clean, modular, and extensible recognition pipeline
 
 
-🚀 Features
+🚀 Features:
 
 • Real-time webcam-based detection
 
@@ -33,7 +33,7 @@ The system detects hand gestures from live video input and classifies them into 
 • Google Colab compatible training setup
 
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
 
 • Programming Language: Python
 
@@ -48,7 +48,7 @@ The system detects hand gestures from live video input and classifies them into 
 • Version Control: Git & GitHub
 
 
-📂 Project Structure
+📂 Project Structure:
 
 sign-language-recognition/
 
@@ -81,7 +81,7 @@ sign-language-recognition/
     └── training_colab.ipynb
 
     
-📊 Dataset Details
+📊 Dataset Details:
 
 • Custom sign language gesture dataset
 
@@ -104,7 +104,7 @@ names: ['sign']
 ⚠️ Dataset images and labels are not included in this repository due to size constraints.
 
 
-⚙️ Setup & Installation
+⚙️ Setup & Installation:
 
 1️⃣ Clone YOLOv7 Repository
 
@@ -123,7 +123,7 @@ pip install -r requirements.txt
 Download yolov7.pt from the official YOLOv7 releases and place it in the project root or YOLOv7 directory.
 
 
-🏋️ Model Training
+🏋️ Model Training:
 
 Run the training script:
 
@@ -138,7 +138,7 @@ Trained model weights will be saved automatically in:
 runs/train/exp/weights/
 
 
-🎥 Real-Time Detection
+🎥 Real-Time Detection:
 
 To start live sign language recognition using a webcam:
 
@@ -147,7 +147,7 @@ To start live sign language recognition using a webcam:
 python scripts/detect_realtime.py
 
 
-📈 Results
+📈 Results:
 
 • Accurate gesture detection on trained sign classes
 
@@ -158,7 +158,7 @@ python scripts/detect_realtime.py
 (Performance depends on dataset quality and hardware configuration)
 
   
-🧩 Applications
+🧩 Applications:
 
 • Assistive communication systems
 
@@ -169,7 +169,7 @@ python scripts/detect_realtime.py
 • Gesture-based control systems
 
 
-🔮 Future Enhancements
+🔮 Future Enhancements:
 
 • Sentence-level sign language recognition
 
@@ -180,7 +180,7 @@ python scripts/detect_realtime.py
 • Support for multiple sign languages
 
 
-⚠️ Important Note
+⚠️ Important Note:
 
 • This project uses the official YOLOv7 implementation.
 
@@ -195,7 +195,7 @@ The primary contributions of this project include:
 • Project integration and documentation
 
 
-👨‍💻 Team Members
+👨‍💻 Team Members:
 
 • Dinesh Kumar M
 
@@ -204,12 +204,12 @@ The primary contributions of this project include:
 • Aathavan S K
 
 
-📜 License
+📜 License:
 
 This project is intended for academic and educational purposes only.
 
 
-⭐ Acknowledgements
+⭐ Acknowledgements:
 
 • YOLOv7 by WongKinYiu
 
