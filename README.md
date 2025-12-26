@@ -8,6 +8,7 @@ This project implements a real-time sign language recognition system using YOLOv
 
 The system detects hand gestures from live video input and classifies them into predefined sign labels with fast and accurate real-time performance.
 
+
 🎯 Objectives
 
 • Detect hand gestures in real time using a webcam
@@ -17,6 +18,7 @@ The system detects hand gestures from live video input and classifies them into 
 • Achieve high accuracy with low inference latency
 
 • Build a clean, modular, and extensible recognition pipeline
+
 
 🚀 Features
 
@@ -29,6 +31,7 @@ The system detects hand gestures from live video input and classifies them into 
 • Clean and GitHub-friendly project structure
 
 • Google Colab compatible training setup
+
 
 🛠️ Tech Stack
 
@@ -43,6 +46,7 @@ The system detects hand gestures from live video input and classifies them into 
 • Training Environment: Google Colab / Local Machine
 
 • Version Control: Git & GitHub
+
 
 📂 Project Structure
 
@@ -75,6 +79,7 @@ sign-language-recognition/
 └── notebooks/
 
     └── training_colab.ipynb
+
     
 📊 Dataset Details
 
@@ -98,6 +103,7 @@ names: ['sign']
 
 ⚠️ Dataset images and labels are not included in this repository due to size constraints.
 
+
 ⚙️ Setup & Installation
 
 1️⃣ Clone YOLOv7 Repository
@@ -116,6 +122,7 @@ pip install -r requirements.txt
 
 Download yolov7.pt from the official YOLOv7 releases and place it in the project root or YOLOv7 directory.
 
+
 🏋️ Model Training
 
 Run the training script:
@@ -130,6 +137,7 @@ Trained model weights will be saved automatically in:
 
 runs/train/exp/weights/
 
+
 🎥 Real-Time Detection
 
 To start live sign language recognition using a webcam:
@@ -138,44 +146,75 @@ To start live sign language recognition using a webcam:
 
 python scripts/detect_realtime.py
 
+
 📈 Results
 
 • Accurate gesture detection on trained sign classes
+
 • Smooth real-time inference
+
 • Efficient performance using YOLOv7 architecture
+
 (Performance depends on dataset quality and hardware configuration)
+
   
 🧩 Applications
+
 • Assistive communication systems
+
 • Educational tools for hearing-impaired learners
+
 • Human–computer interaction
+
 • Gesture-based control systems
 
+
 🔮 Future Enhancements
+
 • Sentence-level sign language recognition
+
 • Gesture-to-speech conversion
+
 • Mobile or web-based deployment
+
 • Support for multiple sign languages
 
+
 ⚠️ Important Note
+
 • This project uses the official YOLOv7 implementation.
-• The primary contributions of this project include:
+
+The primary contributions of this project include:
+
 • Dataset preparation and annotation
+
 • Model training and fine-tuning
+
 • Real-time inference pipeline
+
 • Project integration and documentation
 
+
 👨‍💻 Team Members
+
 • Dinesh Kumar M
+
 • Dileep Adhithyan K
+
 • Aathavan S K
 
+
 📜 License
+
 This project is intended for academic and educational purposes only.
 
+
 ⭐ Acknowledgements
+
 • YOLOv7 by WongKinYiu
+
 • PyTorch Community
+
 • OpenCV Contributors
 
 
