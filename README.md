@@ -35,10 +35,14 @@ The system detects hand gestures from live video input and classifies them into 
 sign-language-recognition/
 
 │
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── .gitignore
 │
+
 ├── data/
 │   └── custom.yaml
 │
