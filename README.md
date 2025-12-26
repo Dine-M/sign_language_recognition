@@ -1,6 +1,7 @@
 # sign_language_recognition using yolov7
 
-📌 Project Overview
+📌 Project Overview:
+
 Sign Language Recognition is an important assistive technology that helps bridge the communication gap between hearing-impaired individuals and the rest of society.
 This project implements a real-time sign language recognition system using YOLOv7, a high-performance object detection model.
 The system detects hand gestures from live video input and classifies them into predefined sign labels with fast and accurate real-time performance.
