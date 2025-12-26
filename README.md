@@ -41,16 +41,25 @@ sign-language-recognition/
 ├── requirements.txt
 
 ├── .gitignore
+
 │
 
 ├── data/
+
 │   └── custom.yaml
+
 │
+
 ├── scripts/
+
 │   ├── train_model.py
+
 │   └── detect_realtime.py
+
 │
+
 └── notebooks/
+
     └── training_colab.ipynb
     
 📊 Dataset Details
@@ -60,7 +69,9 @@ sign-language-recognition/
 • Dataset split into training and validation sets
 
 Dataset Configuration (data/custom.yaml)
+
 (code)
+
 train: data/images/train
 val: data/images/val
 
