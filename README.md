@@ -69,7 +69,6 @@ sign-language-recognition/
 • Dataset split into training and validation sets
 
 Dataset Configuration (data/custom.yaml)
-
 (code)
 
 train: data/images/train
@@ -77,11 +76,14 @@ val: data/images/val
 
 nc: 1
 names: ['sign']
+
 ⚠️ Dataset images and labels are not included in this repository due to size constraints.
 
 ⚙️ Setup & Installation
+
 1️⃣ Clone YOLOv7 Repository
 (Code)
+
 git clone https://github.com/WongKinYiu/yolov7
 2️⃣ Install Dependencies
 (Code)
