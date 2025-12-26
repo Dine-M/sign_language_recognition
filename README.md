@@ -3,31 +3,45 @@
 📌 Project Overview:
 
 Sign Language Recognition is an important assistive technology that helps bridge the communication gap between hearing-impaired individuals and the rest of society.
+
 This project implements a real-time sign language recognition system using YOLOv7, a high-performance object detection model.
+
 The system detects hand gestures from live video input and classifies them into predefined sign labels with fast and accurate real-time performance.
 
 🎯 Objectives
 
 • Detect hand gestures in real time using a webcam
+
 • Train a deep learning model on a custom sign language dataset
+
 • Achieve high accuracy with low inference latency
+
 • Build a clean, modular, and extensible recognition pipeline
 
 🚀 Features
 
 • Real-time webcam-based detection
+
 • YOLOv7-powered object detection
+
 • Custom dataset training support
+
 • Clean and GitHub-friendly project structure
+
 • Google Colab compatible training setup
 
 🛠️ Tech Stack
 
 • Programming Language: Python
+
 • Deep Learning Framework: PyTorch
+
 • Model: YOLOv7
+
 • Computer Vision: OpenCV
+
 • Training Environment: Google Colab / Local Machine
+
 • Version Control: Git & GitHub
 
 📂 Project Structure
@@ -65,7 +79,9 @@ sign-language-recognition/
 📊 Dataset Details
 
 • Custom sign language gesture dataset
+
 • Images annotated in YOLO format
+
 • Dataset split into training and validation sets
 
 Dataset Configuration (data/custom.yaml)
@@ -73,9 +89,11 @@ Dataset Configuration (data/custom.yaml)
 (code)
 
 train: data/images/train
+
 val: data/images/val
 
 nc: 1
+
 names: ['sign']
 
 ⚠️ Dataset images and labels are not included in this repository due to size constraints.
